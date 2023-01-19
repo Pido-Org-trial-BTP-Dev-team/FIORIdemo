@@ -1,0 +1,18 @@
+<mvc:View controllerName="simpleappmodule.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <sap.ui.layout.form:SimpleForm xmlns:sap.ui.layout.form="sap.ui.layout.form" xmlns:sap.ui.core="sap.ui.core" editable="true" layout="ResponsiveGridLayout" id="form0">
+                <sap.ui.layout.form:content>
+                    <sap.ui.core:Title text="Form entry" id="title0"/>
+                    <Label text="{i18n>lblname}" id="label0"/>
+                    <Input width="100%" id="input0"/>
+                    <Input width="100%" id="input1"/>
+                    <Label text="{i18n>lbladdr}" id="label1"/>
+                    <Input width="100%" id="input2"/></sap.ui.layout.form:content>
+            </sap.ui.layout.form:SimpleForm>
+        </content>
+                
+    </Page>
+</mvc:View>
